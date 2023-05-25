@@ -1,0 +1,35 @@
+{
+  "name": "stackeddataservices",
+  "version": "1.0.0",
+  "description": "[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\r # StackedDataServices\r   DEMO VIDEO LINK: TBD\r   ## Table of Contents\r   * [Description](#description)\r   * [License](#license)\r   * [Contribution](#contribution)\r   * [Tests](#tests)\r   * [Questions](#questions)\r   ## DESCRIPTION \r   E-commerce Back-end system builder\r   ## LICENSE \r   MIT\r   ## CONTRIBUTION \r   Any pulls for corrected and/or improvements will be gladly appreciated :)\r   ## TESTS \r   npm run test\r   ## QUESTIONS \r   ### Reach me at:\r   #### Github: [Rollieh27](github.com/Rollieh27)<br>\r   #### Email: Rollieh27@gmail.com",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon index.js",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rollieh27/StackedDataServices.git"
+  },
+  "keywords": [
+    "ecom",
+    "back-end"
+  ],
+  "author": "rollie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rollieh27/StackedDataServices/issues"
+  },
+  "homepage": "https://github.com/Rollieh27/StackedDataServices#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "mysql": "^2.18.1",
+    "sequelize": "^6.31.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "sequelize-cli": "^6.6.0"
+  }
+}
